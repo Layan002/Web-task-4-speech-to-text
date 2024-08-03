@@ -215,4 +215,5 @@ $conn->close();
 >[!NOTE]
 >Do not forget to start apache and mysql in xampp. In addition, creating a database called "speech-to-text" and table called "Recordings" with two coloumns: ID (int) and text (int).
 
+# Testing Video 
 
