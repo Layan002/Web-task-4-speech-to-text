@@ -14,7 +14,7 @@ I've used the following electronics components:
 To complete this task, I've written 5 files codes: html, css, php and js. I put them all inside the path of "C:\xampp\htdocs\speech-to-text".<br>
 "speech-to-text" is the directory I've created to contail all coded files. 
 
-- "index.html" file:
+## "index.html" file:
 ``` HTML
 <!DOCTYPE html>
 <html lang="en">
@@ -41,7 +41,7 @@ To complete this task, I've written 5 files codes: html, css, php and js. I put 
 
 ```
 
-- "styles.css"
+## "styles.css"
 ``` CSS
 body {
     font-family: Arial, sans-serif;
@@ -61,7 +61,7 @@ button {
 }
 ```
 
-- "script.js"
+## "script.js"
 ``` JS
 document.addEventListener('DOMContentLoaded', function() {
     const startRecordBtn = document.getElementById('start-record-btn');
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 
-- "save_text.php"
+## "save_text.php"
 ``` PHP
 <?php
 // Database connection
@@ -178,7 +178,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 ```
 
-- "fetch_value.php"
+## "fetch_value.php"
 ``` PHP
 <?php
 // Database connection
