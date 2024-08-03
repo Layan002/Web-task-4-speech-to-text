@@ -333,3 +333,26 @@ void loop() {
 
 # Testing Video 
 
+
+# Troubleshooting 
+I want to mention some important problem that I've encountered while trying to implement this project.<br>
+
+## ESP32 type
+The code was not uploaded to the esp32 and the error showed the terminal was: <br>
+```
+esptool.py v4.6
+Serial port COM4
+Connecting.....
+
+A fatal error occurred: This chip is ESP32 not ESP32-S3. Wrong --chip argument?
+A fatal error occurred: This chip is ESP32 not ESP32-S3. Wrong --chip argument?
+```
+I solved this by installing this peckage using "cmd": 
+```
+pip install esptool
+```
+Then, implementing this command:<br>
+```
+esptool.py --chip esp32 --port COM4 flash_id
+```
+Finally, I changed the port since the esp32 I took from "smart-methods" company doenst work with "ESP32-WROOM-DA-MODULE". It worked with "LilyGo T-Display"
