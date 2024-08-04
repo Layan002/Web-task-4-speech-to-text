@@ -359,6 +359,4 @@ Finally, I changed the port since the esp32 I took from "smart-methods" company 
 
 # Notes
 
-- When I connect the vcc of the relay to the 5v of the Arduino the gate doesnt function but the led light up and light down.
-- When I connect the vcc of the relay to the 5v of the esp32 it works very good and the gate function appropriately. Although, when I searched it supposed to work in both situations !!
-
+- If the relay doesnt work reconnect and connect the arduino from the power supply. If it doesnt work do the same with the esp32 also. 
