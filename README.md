@@ -356,3 +356,9 @@ Then, implementing this command:<br>
 esptool.py --chip esp32 --port COM4 flash_id
 ```
 Finally, I changed the port since the esp32 I took from "smart-methods" company doenst work with "ESP32-WROOM-DA-MODULE". It worked with "LilyGo T-Display"
+
+# Notes
+
+- When I connect the vcc of the relay to the 5v of the Arduino the gate doesnt function but the led light up and light down.
+- When I connect the vcc of the relay to the 5v of the esp32 it works very good and the gate function appropriately. Although, when I searched it supposed to work in both situations !!
+
