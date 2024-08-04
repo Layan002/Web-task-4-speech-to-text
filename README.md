@@ -334,6 +334,11 @@ void loop() {
 # Testing Video 
 
 
+https://github.com/user-attachments/assets/b6ca5260-8b6a-4baa-ab41-f7a21ea472a6
+
+> [!NOTE]
+> The lamp works very good when I connect it to another place. but the cup that holds this lamp was burnt. 
+
 # Troubleshooting 
 I want to mention some important problem that I've encountered while trying to implement this project.<br>
 
